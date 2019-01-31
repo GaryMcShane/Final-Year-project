@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+		<title>AgriConstruct</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+ 
+  <body>
+    <div class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="../index.html" class="navbar-brand"><img src="../images/N4_Title.png" width="130" height="20"></a>
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <ul class="nav navbar-nav">
+          <li>
+              <a href="../index.php">Home</a>
+            </li>
+            <li>
+              <a href="../agri.php">Agriculture</a>
+            </li>
+			<li>
+              <a href="../construct.php">Construction</a>
+            </li>
+			<li>
+              <a href="../about.php">About</a>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#" >Login <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="../Customer/customerLogin.html">Customer Login</a></li>
+                <li class="divider"></li>
+                <li><a href="adminLogin.html">Admin Login</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+	<br><br><br>
+	
+	<div class="container">
+		<div class="bs-docs-section">
+			
+			<div class="row">
+			  <div class="col-lg-12">
+				<div class="page-header">
+				  <h1 id="forms">Administrator Login:</h1>
+				</div>
+			  </div>
+			</div>
+			
+			<div class="row">
+				<div class="col-lg-12 col-md-12">
+				
+					<div class="col-lg-3 col-md-3">
+					</div>
+					
+					<div class="col-lg-5 col-md-5">
+						<div class="well bs-component">
+							<form class="form-horizontal">
+								<h4>Enter your Admin email and password to login:</h4>
+								<fieldset>
+									<div class="form-group">
+										<label for="inputAdminEmail" class="col-lg-2 control-label">Email:</label>
+										<div class="col-lg-10">
+											<input type="text" class="form-control" id="inputAdminEmail" placeholder="Admin Email">
+										</div>
+									</div>
+									<div class="form-group">
+										<label for="inputPassword" class="col-lg-2 control-label">Password:</label>
+										<div class="col-lg-10">
+											<input type="password" class="form-control" id="inputPassword" placeholder="Password">
+										</div>
+									</div>
+									<div class="form-group">
+										<div class="col-lg-10 col-lg-offset-2" align="right">
+											<a href="addProd.html">Add product   </a>
+											<button type="submit" class="btn btn-primary">Login</button>
+										</div>
+									</div>
+								</fieldset>
+							</form>
+						</div>
+					</div>
+					
+					<div class="col-lg-3 col-md-3">
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		
+		<footer>
+        <div class="row">
+          <div class="col-lg-md">
+            <p align="center">&copy; 2017 AgriConstruct, Designer: Gary McShane (B00656764)</p>
+          </div>
+        </div>
+      </footer> 	  
+	</div>
+
+    <script src="../jquery/n4.min.js"></script>
+    <script src="../jquery/n4_1.min.js"></script>
+    
+  <script type="text/javascript">
+/* <![CDATA[ */
+(function(){try{var s,a,i,j,r,c,l=document.getElementsByTagName("a"),t=document.createElement("textarea");for(i=0;l.length-i;i++){try{a=l[i].getAttribute("href");if(a&&a.indexOf("/cdn-cgi/l/email-protection") > -1  && (a.length > 28)){s='';j=27+ 1 + a.indexOf("/cdn-cgi/l/email-protection");if (a.length > j) {r=parseInt(a.substr(j,2),16);for(j+=2;a.length>j&&a.substr(j,1)!='X';j+=2){c=parseInt(a.substr(j,2),16)^r;s+=String.fromCharCode(c);}j+=1;s+=a.substr(j,a.length-j);}t.innerHTML=s.replace(/</g,"&lt;").replace(/>/g,"&gt;");l[i].setAttribute("href","mailto:"+t.value);}}catch(e){}}}catch(e){}})();
+/* ]]> */
+</script>
+</body>
+</html>
